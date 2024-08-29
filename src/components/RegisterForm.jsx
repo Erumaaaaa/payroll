@@ -16,8 +16,9 @@ export function RegisterForm() {
   const navigate = useNavigate();
 
   const roleCategory = [ 
-    { value: 'admin', label: 'Admin' },
-    { value: 'user', label: 'User' },
+    { value: 'manajer', label: 'Manajer' },
+    { value: 'Supervisor', label: 'Supervisor' },
+    { value: 'Karyawan', label: 'Karyawan' },
   ];
 
   const defaultValues = {

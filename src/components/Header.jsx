@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Breadcrumb, BreadcrumbEllipsis, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb";
 import { Toast } from "@/components/ui/toast"; // Assuming you have a Toast component for notifications
-import { Sidebar } from "./SidebarPage";
+import { Sidebar } from "./Sidebar";
 
 export function Header() {
   const [user, setUser] = useState({ name: "", role: "" });

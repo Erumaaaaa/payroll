@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Sidebar } from "./SidebarPage";
-import { Header } from "./HeaderPage";
+import { Sidebar } from "../components/Sidebar";
+import { Header } from "../components/Header";
 import { useLocation } from "react-router-dom";
 
 function DashboardPage() {
